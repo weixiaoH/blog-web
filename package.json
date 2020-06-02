@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "blog-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -74,9 +74,9 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "react-scripts test",
+    "test": "node scripts/test.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
